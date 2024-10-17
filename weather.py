@@ -16,7 +16,7 @@ if 'weather' in data and len(data['weather']) > 0:
     temp_kelvin = data['main']['temp']
     temp_celsius = temp_kelvin - 273.15  # Conversion de Kelvin à Celsius
     print("Température :", round(temp_celsius, 2),"°C")  # Affiche la température
-    humidity = data['main']['humidity'] 
+    humidity = data['main']['humidity'] #affiche l'humidité 
     print("Humidity :", humidity)
 else:
     print("Aucune donnée météo disponible.")
