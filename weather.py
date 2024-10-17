@@ -18,6 +18,8 @@ if 'weather' in data and len(data['weather']) > 0:
     print("Température :", round(temp_celsius, 2),"°C")  # Affiche la température
     humidity = data['main']['humidity'] #affiche l'humidité 
     print("Humidity :", humidity)
+    pressure = data['main']['pressure'] #affiche l'humidité 
+    print("Pressure :", pressure)
 else:
     print("Aucune donnée météo disponible.")
 
