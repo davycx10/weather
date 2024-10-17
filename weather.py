@@ -15,10 +15,11 @@ if 'weather' in data and len(data['weather']) > 0:
     print("Description :", description)
     temp_kelvin = data['main']['temp']
     temp_celsius = temp_kelvin - 273.15  # Conversion de Kelvin à Celsius
-    print("Température :", round(temp_celsius, 2),"°C")  # Affiche la température 
+    print("Température :", round(temp_celsius, 2),"°C")  # Affiche la température
+   # temp_kelvin = data['main']['temp'] 
 else:
     print("Aucune donnée météo disponible.")
 
 # Affiche la réponse complète si besoin
-#print(data)
+print(data)
 
