@@ -3,7 +3,7 @@ import requests
 city_name = input("mettre le nom de la ville souhaité: ")
 
 langage = "fr" # la sortie de la langue est en français
-key = "288dadf7b5d8930928ac12107a4682e8"
+key = 
 api_link = f"https://api.openweathermap.org/data/2.5/weather?q={city_name}&appid={key}&lang={langage}"
 
 # Récupérer les données JSON
